@@ -53,15 +53,13 @@ lap the track circuit without troubles.
 ![alt text][kp02kd25ki] 
 
 
-Here's a [link to my video result](./mov/kp0.11_kd0.2.mov)
-
-
-
 #### Controll throttle.
 As I did same approach to adjust kp kd and ki fixed paramters for the steering value, 
 I also have setup throttle PID controller as follows; Graph indicates how the trottle changes the car speed of the simulator.  
 At first glance, car needs maximum throttle to accelerate the car upto the max speed, then keep slight adjustments according to the speed cte (= speed - max_speed).
 ![alt text][throttle] 
+
+Here's a [link to my video result (controll steering and throttle with PID.)](./mov/steer_throttle.mp4)
 
 ## Dependencies
 
